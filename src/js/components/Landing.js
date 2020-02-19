@@ -14,9 +14,9 @@ const Landing = () => {
           <Typed 
             strings={[
               'am a software developer.',
-              'design websites and mobile-apps.',
+              'design websites and mobile apps.',
               'do codes.',
-              'swim a lot.',
+              'do run and swim.',
               'drink coffee.',
               'am a dog person.'
             ]}
@@ -33,13 +33,14 @@ const Landing = () => {
           <Link to='/contact'> contact </Link>
         </p>
 
-        <div className="d-flex">
-          <a href="https://github.com/yongkylie" rel="noopener noreferrer" target="_blank"><i className="mdi mdi-github-circle" aria-hidden="true" /><span className="d-none" /></a>
-          <a href="https://twitter.com/yongkylie" rel="noopener noreferrer" target="_blank"><i className="mdi mdi-twitter" aria-hidden="true" /><span className="d-none" /></a>
-          <a href="https://instagram.com/yongkyliee" rel="noopener noreferrer" target="_blank"><i className="mdi mdi-instagram" aria-hidden="true" /><span className="d-none" /></a>
-          <a href="https://medium.com/@yongkyliee" rel="noopener noreferrer" target="_blank"><i className="mdi mdi-medium" aria-hidden="true" /><span className="d-none" /></a>
-          <a href="https://id.linkedin.com/in/yongkylie" rel="noopener noreferrer" target="_blank"><i className="mdi mdi-linkedin" aria-hidden="true" /><span className="d-none" /></a>
-          <a href="https://stackoverflow.com/users/7498283/yongky" rel="noopener noreferrer" target="_blank"><i className="mdi mdi-stack-overflow" aria-hidden="true" /><span className="d-none" /></a>
+        <div className="social-container">
+          <a className="social-link" href="https://github.com/yongkylie" rel="noopener noreferrer" target="_blank"><i className="cib cib-github" aria-hidden="true" /><span className="d-none" /></a>
+          <a className="social-link" href="https://codesandbox.io/u/yongkylie" rel="noopener noreferrer" target="_blank"><i className="cib cib-codesandbox" aria-hidden="true" /><span className="d-none" /></a>
+          <a className="social-link" href="https://twitter.com/yongkylie" rel="noopener noreferrer" target="_blank"><i className="cib cib-twitter" aria-hidden="true" /><span className="d-none" /></a>
+          <a className="social-link" href="https://instagram.com/yongkyliee" rel="noopener noreferrer" target="_blank"><i className="cib cib-instagram" aria-hidden="true" /><span className="d-none" /></a>
+          <a className="social-link" href="https://medium.com/@yongkyliee" rel="noopener noreferrer" target="_blank"><i className="cib cib-medium" aria-hidden="true" /><span className="d-none" /></a>
+          <a className="social-link" href="https://id.linkedin.com/in/yongkylie" rel="noopener noreferrer" target="_blank"><i className="cib cib-linkedin" aria-hidden="true" /><span className="d-none" /></a>
+          <a className="social-link" href="https://stackoverflow.com/users/7498283/yongky" rel="noopener noreferrer" target="_blank"><i className="cib cib-stackoverflow" aria-hidden="true" /><span className="d-none" /></a>
         </div>
       </div>
     </div>

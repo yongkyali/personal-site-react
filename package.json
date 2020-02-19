@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@coreui/icons": "^1.0.1",
     "@mdi/font": "^3.6.95",
     "bootstrap": "^4.3.1",
     "node-sass": "^4.12.0",
